@@ -5,7 +5,7 @@ const customer_routes = require('./router/auth_users.js').authenticated;
 const genl_routes = require('./router/general.js').general;
 
 const app = express();
-const PORT = 5000;
+const PORT = 5001;
 
 // Middleware to parse JSON bodies
 app.use(express.json());
